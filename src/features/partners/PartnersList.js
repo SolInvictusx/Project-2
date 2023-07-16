@@ -1,7 +1,6 @@
 import { Col } from 'reactstrap';
 import Partner from './Partner';
 import { selectAllPartners } from './partnersSlice';
-import { PARTNERS } from '../../app/shared/PARTNERS';
 import { useSelector } from 'react-redux';
 
 const PartnersList = () => {
