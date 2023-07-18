@@ -30,7 +30,7 @@ const AboutPage = () => {
                                 <dt className='col-6'>Founded</dt>
                                 <dd className='col-6'>February 3, 2016</dd>
                                 <dt className='col-6'>No. of Campsites in 2022</dt>
-                                <dd className='col-6'>563</dd>
+                                <dd className='col-6'>445</dd>
                                 <dt className='col-6'>No. of Reviews in 2022</dt>
                                 <dd className='col-6'>4388</dd>
                                 <dt className='col-6'>Employees</dt>
@@ -44,15 +44,12 @@ const AboutPage = () => {
                         <CardBody>
                             <blockquote className='blockquote'>
                                 <p>
-                                    I will not follow where the path may lead, but I
-                                    will go where there is no path, and I will leave
-                                    a trail.
+                                    Fortuna favet fortibus
                                 </p>
                                 <footer className='blockquote-footer'>
-                                    Muriel Strode,{' '}
+                                    Pliny the Elder,{' '}
                                     <cite title='Source Title'>
-                                        "Wind-Wafted Wild Flowers" - The Open Court,
-                                        1903
+                                        Mt. Vesuvius eruption event
                                     </cite>
                                 </footer>
                             </blockquote>
