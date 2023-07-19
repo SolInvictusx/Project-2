@@ -11,9 +11,9 @@ const ContactPage = () => {
                 <Col sm='4'>
                     <h5>Our Address</h5>
                     <address>
-                        1 Nucamp Way
+                        West Dover St.
                         <br />
-                        Seattle, WA 98001
+                        Yosemite
                         <br />
                         U.S.A.
                     </address>

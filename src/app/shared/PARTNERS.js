@@ -1,7 +1,7 @@
 import bootStrapLogo from '../assets/img/bootstrap-logo.png';
 import gitLogo from '../assets/img/git-logo.png';
 import mongoLogo from '../assets/img/mongo-logo.png';
-import nodeLogo from '../assets/img/node-logo.png';
+import flannels from '../assets/img/Flannels.jpg';
 
 export const PARTNERS = [
     {
@@ -30,10 +30,10 @@ export const PARTNERS = [
     },
     {
         id: 3,
-        name: 'Node Outdoor Apparel',
-        image: nodeLogo,
+        name: 'Fireside Apparel',
+        image: flannels,
         featured: true,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            'From polar fleeces to swimsuits, hiking boots to waders, a visit to our shop will be sure to get you covered.'
     }
 ];

@@ -33,11 +33,11 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name: 'Redux Woods Campground',
+        name: 'Upper Pines',
         image: reduxWoodsImg,
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Nestled amidst the breathtaking beauty of Yosemite lies a serene retreat where nature enthusiasts can immerse themselves in towering sequoias, crystal-clear streams, and awe-inspiring granite cliffs."
     }
 ];

@@ -13,7 +13,7 @@ export const PROMOTIONS = [
         image: breadCrumbImg,
         featured: true,
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Tucked away in the picturesque landscapes of Washington lies a tranquil oasis for outdoor enthusiasts seeking respite amidst lush forests, vibrant wildflowers, and breathtaking coastal vistas.'
     },
     {
         id: 1,
