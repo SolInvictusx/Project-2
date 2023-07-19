@@ -23,23 +23,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col sm='4' className='text-center'>
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='tel:+12065551234'
-                        >
-                            <i className='fa fa-phone' />
-                        </a>
-                        <br />
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
-                        >
-                            <i className='fa fa-envelope-o' />
-                        </a>
-                    </Col>
                 </Row>
             </Container>
         </footer>

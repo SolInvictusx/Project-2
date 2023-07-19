@@ -15,12 +15,12 @@ export const CAMPSITES = [
     },
     {
         id: 1,
-        name: 'Chrome River Campground ',
+        name: 'River Campground ',
         image: chromeRiverImg,
         elevation: 877,
         featured: false,
         description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the River.'
     },
     {
         id: 2,

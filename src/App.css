@@ -35,6 +35,29 @@ h2 {
     margin-top: 2rem;
 }
 
+.site-footer a {
+    color: #00474b;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.site-footer h5 {
+    margin-bottom: 20px;
+    color: #00474b;
+}
+
+.site-footer .fa {
+    color: #00474b;
+}
+
+site-footer .btn-link:hover .fa {
+    color: #2a9d8f;
+}
+
 .navbar-brand {
     max-width: 4rem;
     margin-right: 2rem;
