@@ -50,11 +50,7 @@ h2 {
     color: #00474b;
 }
 
-.site-footer .fa {
-    color: #00474b;
-}
-
-site-footer .btn-link:hover .fa {
+.site-footer .btn-link:hover .fa {
     color: #2a9d8f;
 }
 
