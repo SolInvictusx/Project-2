@@ -11,7 +11,7 @@ const AboutPage = () => {
                     <h3>Our Mission</h3>
                     <p>
                         We present a curated database of the best campsites in the
-                        vast woods and backcountry of the World Wide Web Wilderness.
+                        vast woods and backcountry of the American Wilderness.
                         We increase access to adventure for the public while
                         promoting safe and respectful use of resources. The expert
                         wilderness trekkers on our staff personally verify each
@@ -28,13 +28,13 @@ const AboutPage = () => {
                         <CardBody>
                             <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
-                                <dd className='col-6'>February 3, 2016</dd>
+                                <dd className='col-6'>August 8, 2016</dd>
                                 <dt className='col-6'>No. of Campsites in 2022</dt>
-                                <dd className='col-6'>445</dd>
+                                <dd className='col-6'>129</dd>
                                 <dt className='col-6'>No. of Reviews in 2022</dt>
-                                <dd className='col-6'>4388</dd>
+                                <dd className='col-6'>23</dd>
                                 <dt className='col-6'>Employees</dt>
-                                <dd className='col-6'>42</dd>
+                                <dd className='col-6'>16</dd>
                             </dl>
                         </CardBody>
                     </Card>

@@ -6,12 +6,12 @@ import reduxWoodsImg from '../assets/img/redux-woods.jpg';
 export const CAMPSITES = [
     {
         id: 0,
-        name: 'React Lake Campground',
+        name: 'Virgo Lake Campground',
         image: reactLakeImg,
         elevation: 1233,
         featured: false,
         description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            'Nestled in the foothills of the Oregon, this campground on the shores of the pristine Virgo Lake is a favorite for fly fishers.'
     },
     {
         id: 1,
@@ -24,12 +24,12 @@ export const CAMPSITES = [
     },
     {
         id: 2,
-        name: 'Breadcrumb Trail Campground',
+        name: 'Mountain Adventure',
         image: breadCrumbImg,
         elevation: 2901,
         featured: false,
         description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+            'Let us be your guide to this off-the-beaten-path, hike-in-only campground.'
     },
     {
         id: 3,
