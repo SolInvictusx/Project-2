@@ -30,25 +30,21 @@ h3 {
     font-weight: 500;
     font-size: 1.25rem;
     transition: transform 0.3s;
-    /* Add this for a subtle hover effect below */
 }
 
 .card:hover .card-title {
     transform: scale(1.05);
-    /* Slightly enlarge the title on hover */
 }
 
 .card-img-overlay .card-title {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0.25rem 0.5rem;
-    /* Give a little padding to the overlay title */
 }
 
 .row-content {
     padding: 50px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* subtle shadow instead of border */
     min-height: 200px;
 }
 
