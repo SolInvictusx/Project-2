@@ -1,16 +1,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    /* Improved readability */
     color: #333;
-    /* Dark gray for softer text */
 }
 
 h1,
 h2,
 h3,
 .card-body>.card-title {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans', cursive;
 }
 
 h1 {

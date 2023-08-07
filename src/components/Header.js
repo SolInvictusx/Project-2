@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <img src={Fireside} alt='Fireside logo' className='float-start' />
-                <h1 className='mt-1'>Fireside Finder</h1>
+                <h1 className='mt-4'>Fireside Finder</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
