@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap';
 import { useSpring, animated } from 'react-spring';
+import { Link } from 'react-router-dom';
 
 const AnimatedDisplayCard = ({ item }) => {
     const { image, name, description } = item;
@@ -12,6 +13,10 @@ const AnimatedDisplayCard = ({ item }) => {
         config: { duration: 500 }
     });
 
+    const handleClick = () => {
+        console.log(`Button clicked for item: ${name}`);
+    };
+
     useEffect(() => {
         setToggle(true);
     }, []);
@@ -21,7 +26,12 @@ const AnimatedDisplayCard = ({ item }) => {
             <Card>
                 <CardImg src={image} alt={name} />
                 <CardBody>
-                    <CardTitle>{name}</CardTitle>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <CardTitle>{name}</CardTitle>
+                        <Link to={`/path/to/${item.id}`}>
+                            <Button onClick={handleClick} style={{ marginLeft: '10px' }}>Click Me</Button>
+                        </Link>
+                    </div>
                     <CardText>{description}</CardText>
                 </CardBody>
             </Card>
