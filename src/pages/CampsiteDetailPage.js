@@ -8,8 +8,7 @@ import { useSelector } from 'react-redux';
 
 const CampsiteDetailPage = () => {
     const { campsiteId } = useParams();
-    const campsite = useSelector(selectCampsiteById(campsiteId));
-    console.log('campsite:', campsite);
+    const campsite = useSelector(selectCampsiteById(parseInt(campsiteId)));
 
     return (
         <Container>

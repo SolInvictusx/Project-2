@@ -21,6 +21,8 @@ const AnimatedDisplayCard = ({ item }) => {
         setToggle(true);
     }, []);
 
+    const linkTo = `/directory/${item.id}`;
+
     return (
         <animated.div style={animatedStyle}>
             <Card>
@@ -28,7 +30,7 @@ const AnimatedDisplayCard = ({ item }) => {
                 <CardBody>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
                         <CardTitle>{name}</CardTitle>
-                        <Link to={`/path/to/${item.id}`}>
+                        <Link to={linkTo}>
                             <Button onClick={handleClick} style={{ marginLeft: '10px' }}>Click Me</Button>
                         </Link>
                     </div>
