@@ -27,7 +27,7 @@ export const COMMENTS = [
         id: 3,
         campsiteId: 0,
         rating: 3,
-        text: "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
+        text: "Avoid Sundays; couldn't relax and play my guitar with all the noisy kids.",
         author: 'Jean Luc',
         date: '2019-08-04T20:11Z'
     },
