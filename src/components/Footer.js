@@ -6,22 +6,14 @@ const Footer = () => {
         <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'>
+                    <Col xs={{ size: 10, offset: 1 }} sm='12'>
                         <h5>Links</h5>
-                        <ul className='list-unstyled'>
-                            <li>
-                                <Link to='/'>Home</Link>
-                            </li>
-                            <li>
-                                <Link to='/directory'>Directory</Link>
-                            </li>
-                            <li>
-                                <Link to='/about'>About</Link>
-                            </li>
-                            <li>
-                                <Link to='/contact'>Contact</Link>
-                            </li>
-                        </ul>
+                        <div className='footer-links'>
+                            <Link to='/'>Home</Link>
+                            <Link to='/directory'>Directory</Link>
+                            <Link to='/about'>About</Link>
+                            <Link to='/contact'>Contact</Link>
+                        </div>
                     </Col>
                 </Row>
             </Container>
