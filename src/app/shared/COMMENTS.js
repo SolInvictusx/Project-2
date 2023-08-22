@@ -19,7 +19,7 @@ export const COMMENTS = [
         id: 2,
         campsiteId: 0,
         rating: 4,
-        text: 'Do not feed the wildlife. They will follow you back to the tent.',
+        text: 'Do not feed the wildlife. Had quite a few squirrels and racoons sneak into the campsite during the night.',
         author: 'Amy Keophilavong',
         date: '2019-02-18T18:12Z'
     },
