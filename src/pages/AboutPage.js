@@ -28,13 +28,13 @@ const AboutPage = () => {
                         <CardBody>
                             <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
-                                <dd className='col-6'>August 8, 2016</dd>
+                                <dd className='col-6'>August 8, 2017</dd>
                                 <dt className='col-6'>No. of Campsites in 2022</dt>
-                                <dd className='col-6'>129</dd>
+                                <dd className='col-6'>35</dd>
                                 <dt className='col-6'>No. of Reviews in 2022</dt>
-                                <dd className='col-6'>23</dd>
-                                <dt className='col-6'>Employees</dt>
                                 <dd className='col-6'>16</dd>
+                                <dt className='col-6'>Employees</dt>
+                                <dd className='col-6'>11</dd>
                             </dl>
                         </CardBody>
                     </Card>
@@ -44,7 +44,7 @@ const AboutPage = () => {
                         <CardBody>
                             <blockquote className='blockquote'>
                                 <p>
-                                    Fortuna favet fortibus
+                                    Fortuna favet fortibus, "Fortune Favors the Bold"
                                 </p>
                                 <footer className='blockquote-footer'>
                                     Pliny the Elder,{' '}
